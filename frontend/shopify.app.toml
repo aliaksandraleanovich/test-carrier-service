@@ -1,0 +1,18 @@
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
+
+client_id = "906ef11a693795311f4554ec9f457571"
+name = "Test App For Carriers"
+application_url = "https://4003-88-216-178-73.ngrok-free.app/shopify/"
+embedded = true
+
+[build]
+dev_store_url = "test-store-for-carriers.myshopify.com"
+
+[auth]
+redirect_urls = [ "https://4003-88-216-178-73.ngrok-free.app/shopify/callback" ]
+
+[webhooks]
+api_version = "2024-01"
+
+[pos]
+embedded = false
